@@ -1,11 +1,12 @@
 '''
 In this project we are trying to download the latest top 100 torrents from 1337x.to using proxy.
-1. go to proxy page and get some working proxies -- to be done
+1. go to proxy page and get some working proxies -- done
 2. after doing this show user the list of top 100 torrent available this week      --done
 3. ask which torrent to add
 4. update list for weekly animes
 5. search options
 6. store settings in a file 
+7. build a proxy manager in case proxy isn't working
 
 '''
 
@@ -97,7 +98,7 @@ def Get_proxies():
 def main():
     proxies = Get_proxies()
     print_list(proxies)
-    return 
+    #return 
     torrent_sites = ["https://1337x.to/top-100", "https://www.torrentdownloads.me/most-active/"]
     mylink = torrent_sites[0] 
     links_found = Get_all_links(mylink,proxydict)
