@@ -1,4 +1,5 @@
 '''
+EASY TORRENT SUBSCRIBER
 In this project we are trying to download the latest top 100 torrents from 1337x.to using proxy.
 1. go to proxy page and get some working proxies --done
 2. after doing this show user the list of top 100 torrent available this week  --done
